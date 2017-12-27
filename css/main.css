@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* clases para la seccion 'búsqueda' */
+.xspadding {
+  padding: 1px !important;
+  margin: 0 !important;
+}
+  
+/* clases para agregar a objetos jquery */
+.black{
+  background-color: rgba(0, 0, 4, 0.5);
+ 
+}
