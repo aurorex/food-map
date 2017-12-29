@@ -9,7 +9,7 @@ var foodMap = {
             'contacto': 4717673,
             'tipo de Comida': 'Cocina marina/pescados, pescado',
             'precio': 'S/. 32 ',
-            'image': '',            
+            'image': '../assets/images/norte.jpg',            
           }
         },
         {
@@ -19,7 +19,7 @@ var foodMap = {
             'contacto': 4514373,
             'tipo de Comida': 'Cocina peruana, parrillada, carnes',
             'precio': 'S/. 40 ',
-            'image': '',   
+            'image': '../assets/images/sabor.jpg',   
           }
         },
         {
@@ -29,7 +29,7 @@ var foodMap = {
             'contacto': 4274765,
             'tipo de Comida': 'Cocina chifa',
             'precio': 'S/. 25 ',
-            'image': '',   
+            'image': '../assets/images/kocsen.jpg',   
           }
         },
         {
@@ -39,7 +39,7 @@ var foodMap = {
             'contacto': 3305916,
             'tipo de Comida': 'Cocina peruana, pizzería, parrillada ',
             'precio': ' S/. 30 ',
-            'image': '',   
+            'image': '../assets/images/rustica-civico.jpg',   
           }
         },
         {
@@ -49,7 +49,7 @@ var foodMap = {
             'contacto': 6100010,
             'tipo de Comida': 'Cocina americana, hamburguesas',
             'precio': 'S/. 40 ',
-            'image': '',   
+            'image': '../assets/images/chilis.jpg',   
           }
         }
       ]
@@ -63,7 +63,7 @@ var foodMap = {
             'contacto': 3027640,
             'tipo de Comida': 'Cocina marina/pescados',
             'precio': 'S/. 40 ',
-            'image': '',            
+            'image': '../assets/images/paladar.jpg',            
           }
         },
         {
@@ -73,7 +73,7 @@ var foodMap = {
             'contacto': 4332966,
             'tipo de Comida': 'Cocina peruana, parrillada',
             'precio': 'S/. 20',
-            'image': '',   
+            'image': '../assets/images/norkys.jpg',   
           }
         },
         {
@@ -83,7 +83,7 @@ var foodMap = {
             'contacto': 4007713,
             'tipo de Comida': 'Cocina regional, peruana ',
             'precio': 'S/. 40',
-            'image': '',   
+            'image': '../assets/images/pichito.jpg',   
           }
         },
         {
@@ -93,7 +93,7 @@ var foodMap = {
             'contacto': 7141636,
             'tipo de Comida': 'Cocina pizzería, cafetería, piqueos',
             'precio': 'S/. 40',
-            'image': '',   
+            'image': '../assets/images/sarcletti.jpg',   
           }
         },
         {
@@ -103,7 +103,7 @@ var foodMap = {
             'contacto': 6470069,
             'tipo de Comida': 'Cocina peruana, cafetería',
             'precio': ' S/. 18',
-            'image': '',   
+            'image': '../assets/images/patrio.jpg',   
           }
         }
       ]
@@ -117,7 +117,7 @@ var foodMap = {
             'contacto': 3322815,
             'tipo de Comida': 'Cocina marina/pescados, ',
             'precio': 'S/. 30 ',
-            'image': '',            
+            'image': '../assets/images/maria.jpg',            
           }
         },
         {
@@ -127,7 +127,7 @@ var foodMap = {
             'contacto': 967742622,
             'tipo de Comida': 'Cocina parrillada, carnes',
             'precio': 'S/. 35',
-            'image': '',   
+            'image': '../assets/images/bocatto.jpg',   
           }
         },
         {
@@ -137,7 +137,7 @@ var foodMap = {
             'contacto': 4603850,
             'tipo de Comida': 'cocina internacional, fusión, peruana, pizzería, exótica',
             'precio': 'S/. 35',
-            'image': '',   
+            'image': '../assets/images/rustica-husares.jpg',   
           }
         },
         {
@@ -147,7 +147,7 @@ var foodMap = {
             'contacto': 6223476,
             'tipo de Comida': 'Cocina polleria',
             'precio': 'S/. 50',
-            'image': '',   
+            'image': '../assets/images/belisario.jpg',   
           }
         },
         {
@@ -157,7 +157,7 @@ var foodMap = {
             'contacto': 4624773,
             'tipo de Comida': 'Cocina chifa',
             'precio': 'S/. 25',
-            'image': '',   
+            'image': '../assets/images/cisne.jpg',   
           }
         }
       ]
@@ -171,7 +171,7 @@ var foodMap = {
             'contacto': 5718673,
             'tipo de Comida': 'Cocina marina/pescados',
             'precio': 'S/. 40',
-            'image': '',            
+            'image': '../assets/images/pezon.jpg',            
           }
         },
         {
@@ -181,7 +181,7 @@ var foodMap = {
             'contacto': 3245971,
             'tipo de Comida': 'Cocina peruana, parrillada, carnes',
             'precio': 'S/. 35',
-            'image': '',   
+            'image': '../assets/images/pepes.jpg',   
           }
         },
         {
@@ -191,7 +191,7 @@ var foodMap = {
             'contacto': 4720389,
             'tipo de Comida': 'Cocina regional',
             'precio': 'S/. 45 ',
-            'image': '',   
+            'image': '../assets/images/tarwi.jpg',   
           }
         },
         {
@@ -201,7 +201,7 @@ var foodMap = {
             'contacto': 4719514,
             'tipo de Comida': 'Cocina internacional, cafetería',
             'precio': 'S/. 40',
-            'image': '',   
+            'image': '../assets/images/roca.jpg',   
           }
         },
         {
@@ -211,7 +211,7 @@ var foodMap = {
             'contacto': 2253654,
             'tipo de Comida': 'Cocina casera, regional',
             'precio': 'S/. 30',
-            'image': '',   
+            'image': '../assets/images/huancahuasi.jpg',   
           }
         }
       ]
@@ -225,7 +225,7 @@ var foodMap = {
             'contacto': 4174771,
             'tipo de Comida': 'Cocina marina/pescados, pescado',
             'precio': 'S/. 40',
-            'image': '',            
+            'image': '../assets/images/atlantico.jpg',            
           }
         },
         {
@@ -235,7 +235,7 @@ var foodMap = {
             'contacto': 2136688,
             'tipo de Comida': 'Cocina chifa',
             'precio': 'S/. 30',
-            'image': '',   
+            'image': '../assets/images/express.jpg',   
           }
         },
         {
@@ -245,7 +245,7 @@ var foodMap = {
             'contacto': 4618967,
             'tipo de Comida': 'Cocina polleria',
             'precio': 'S/. 30',
-            'image': '',   
+            'image': '../assets/images/belisario-sucre.jpg',   
           }
         },
         {
@@ -255,7 +255,7 @@ var foodMap = {
             'contacto': 6285311,
             'tipo de Comida': 'Cocina peruana, cafetería',
             'precio': 'S/. 40',
-            'image': '',   
+            'image': '../assets/images/inca.jpg',   
           }
         },
         {
@@ -265,7 +265,7 @@ var foodMap = {
             'contacto': 2617888,
             'tipo de Comida': 'Cocina asiática, chifa, vegetariana, exótica',
             'precio': 'S/. 29',
-            'image': '',   
+            'image': '../assets/images/fusen.jpg',   
           }
         }
       ]

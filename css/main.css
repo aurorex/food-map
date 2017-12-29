@@ -1,3 +1,11 @@
+/* clases para agegar al archivo index.html */
+.body-index{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* clases para agregar al archivo search.html */
 *{
   box-sizing: border-box;
   padding: 0;
@@ -10,19 +18,20 @@ body{
   height: 100vh; 
 }
 
-/* clases para agegar al archivo index.html */
-.body-index{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* clases para la sección 'header' */
+.title, p{
+  line-height: 100px;
 }
 
-.xspadding {
-  padding: 2px ;
-  margin: 0 ;
+h1 .glyphicon-search{
+  color: beige;
+  font-size: 20px;
+  margin: 0 0 0 10px;
 }
 
-/* clases para la seccion 'búsqueda' */
+/* clases para la sección 'location' */
+
+/* clases para la seccion 'search' */
 .div-input{
   background-color: rgb(248, 169, 21);
 }
@@ -35,10 +44,22 @@ body{
   color: beige;
 }
 
-.glyphicon-search,a{
+.div-input .glyphicon-search{
   color: beige;
+  font-size: 15px;
 }
+
+.xspadding {
+  padding: 2px ;
+  margin: 0 ;
+}
+
 /* clases para la seccion footer*/
+a{
+  color: beige;
+  font-size: 16px;
+}
+
 a:hover{
   color: rgb(167, 164, 162) 
 }
@@ -47,19 +68,42 @@ a:hover{
 
 /* clases para dispositivos tablets'sm' */
 @media (min-width:768px){
-  .title{
-    font-size: 80px;
+  /* clases para la sección 'header' */
+  .search{
+    padding:70px 0 0 0 ;
   }
-  
-  .subtitle{
+
+  .title{
     font-size: 50px;
+    line-height: 200px;
+  }
+
+  h1 .glyphicon-search{
+    font-size: 30px;
+    margin: 0 0 0 10px;
+  }
+
+  /* clases para la sección 'location' */
+  
+  /* clases para la seccion 'search' */
+  .subtitle{
+  font-size: 40px;
   }
 
   .input{
-    width:450px;
-    height: 40px;
+  width:300px;
+  height: 20px;
   }
 
+  .div-input .glyphicon-search{
+    font-size: 15px;
+  }
+
+  /* clases para la seccion footer*/
+  footer{
+    padding:40px 0 0 0 ;
+  }
+  
   h3{
     font-size: 30px
   }
@@ -68,56 +112,129 @@ a:hover{
     font-size: 18px;
   }
   
-  .smpadding{
+  .sm-padding{
     padding: 2px ;
   }
 
-  .smpadding2{
-    padding:0 0 0 62px ;
+  .sm-padding-2{
+    padding:60px 0 0 0 ;
   }
 
   p{
-    line-height: 100px;
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 200px;
   }
-
 }
 
 /* clases para dispositivos desktops'md' */
 @media (min-width:992px){
-  .title{
-    font-size: 100px;
+  /* clases para la sección 'header' */
+  .search{
+    padding:100px 0 0 0 ;
   }
+
+  .title{
+    font-size: 50px;
+    line-height: 200px;
+  }
+
+  h1 .glyphicon-search{
+    font-size: 30px;
+    margin: 0 0 0 10px;
+  }
+  /* clases para la sección 'location' */
   
+  /* clases para la seccion 'search' */
   .subtitle{
-    font-size: 70px;
+    font-size: 40px;
   }
 
   .input{
-    width:550px;
-    height: 40px;
+    width:350px;
+    height: 25px;
+    font-size: 18px;
+  }
+
+  .div-input .glyphicon-search{
+    font-size: 20px;
+  }
+
+  /* clases para la seccion footer*/
+  footer{
+    padding:60px 0 0 0 ;
   }
 
   h3{
-    font-size: 35px
+    font-size: 25px
   }
 
   a{
     font-size: 18px;
   }
 
-  .mdpadding{
+  .md-padding{
     margin: 0 0 0 20px ;
   }
 
   p{
+    font-size: 20px;
     line-height: 200px;
-    font-size: 30px;
   }
-
 }
 
 /* clases para dispositivos desktops'lg' */
 @media (min-width:1200px){
+  /* clases para la sección 'header' */
+  .search{
+    padding:150px 0 0 0 ;
+  }
 
+  .title{
+    font-size: 50px;
+    line-height: 200px;
+  }
+
+  h1 .glyphicon-search{
+    font-size: 30px;
+    margin: 0 0 0 10px;
+  }
+
+  /* clases para la sección 'location' */
+
+  /* clases para la seccion 'search' */
+  .subtitle{
+    font-size: 40px;
+  }
+
+  .input{
+    width:400px;
+    height: 20px;
+    font-size: 20px;
+  }
+
+  .div-input .glyphicon-search{
+    font-size: 20px;
+  }
+
+  /* clases para la seccion footer*/
+  footer{
+    padding:70px 0 0 0 ;
+  }
+  
+  h3{
+    font-size: 30px
+  }
+
+  a{
+    font-size: 20px;
+  }
+
+  .lg-padding{
+    padding:0 0 0 50px ;
+  }
+
+  p{
+    font-size: 20px;
+    line-height: 200px;
+  }
 }

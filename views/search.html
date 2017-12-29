@@ -8,25 +8,24 @@
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
-    <!--estructura e la seccion 'header'-->
+    <!--estructura de la seccion 'header'-->
     <header>
       <div class="container">
         <div class="row">
-          <h1 class="text-center title">FOOD<em>map</em></h1>
+          <h1 class="text-center title">FOOD<em>map</em><span class="glyphicon glyphicon-search "></span></h1>
         </div>
       </div>
     </header>
-    <br>
-    <!--estructura de la sección de 'ubicacion'-->
+    <!--estructura de la sección de 'location'-->
     <section class="location">
       <div class="container">
         <div class="row"> 
-          <img class="img-responsive col-xs-12" src="../assets/images/lima-map.gif" alt="">            
+          <img class="hidden-md hidden-lg img-responsive col-xs-12" src="../assets/images/lima-small.jpg" alt="">
+          <img class="visible-md visible-lg img-responsive col-xs-12" src="../assets/images/lima-desktop.png" alt="">            
         </div>
       </div>  
     </section>
-    <br>
-    <!--estructura de la sección 'búsqueda'-->
+    <!--estructura de la sección 'search'-->
     <section class="search">
       <div class="container ">
         <div class="row text-center ">
@@ -49,12 +48,11 @@
         </div>
       </div>
     </section>
-    <br>
     <!--estructura de la seccion 'footer'-->
     <footer>
       <div class="container ">
         <div class="row col-xs-12">
-          <div class="col col-sm-3 col-md-3 ">
+          <div class="col col-sm-4 col-md-3 col-lg-2 ">
             <h3>Places</h3>
             <ul class="list-unstyled">
               <li><a href="" class="">Breña</a></li>
@@ -63,8 +61,16 @@
               <li><a href="" class="">La Victoria</a></li>   
               <li><a href="" class="">Pueblo Libre</a></li>
             </ul>
+            <h3 class="visible-sm sm-padding-2">Prices</h3>
+            <ul class="list-unstyled visible-sm">
+              <li><a href="" class="">S/ 10+</a></li>
+              <li><a href="" class="">S/ 20+</a></li>
+              <li><a href="" class="">S/ 30+</a></li>
+              <li><a href="" class="">S/ 40+</a></li>
+              <li><a href="" class="">S/ 50+</a></li>
+            </ul>
           </div>
-          <div class="col smpadding col-sm-3  col-md-3 ">
+          <div class="col sm-padding col-sm-4 col-md-3 col-lg-4 lg-padding">
             <h3>Restaurants</h3>
             <ul class="list-unstyled">
               <li><a href="" class="">Anticuchería Pepes</a></li>
@@ -94,7 +100,7 @@
               <li><a href="" class="">Sarcletti</a></li>              
             </ul>
           </div>
-          <div class="col col-sm-3 col-md-4">
+          <div class="col col-sm-4 col-md-4 col-lg-4">
             <h3>Food</h3>
             <ul class="list-unstyled">
               <li><a href="" class="">Cocina peruana</a></li>
@@ -112,7 +118,7 @@
               <li><a href="" class="">Cocina amazónica</a></li>
             </ul>
           </div>
-          <div class="col col-sm-2 smpadding2 col-md-2">
+          <div class="col hidden-sm col-md-2 col-lg-2">
             <h3>Prices</h3>
             <ul class="list-unstyled">
               <li><a href="" class="">S/ 10+</a></li>
@@ -123,9 +129,6 @@
             </ul>
           </div>
         </div>
-        <br>
-        <br>
-        <br>
         <div class="row text-center">
           <p>©2017Foodmap,inc.TermsPrivacy</p>
         </div>
@@ -133,7 +136,7 @@
     </footer>
 
     <script src="../vendors/js/jquery-3.2.1.min.js"></script>
-    <!-- <script type="text/javascript" src="js/data.js"></script> -->
+    <script type="text/javascript" src="../js/data.js"></script>
     <script type="text/javascript" src="../js/search.js"></script>
   </body>
 </html>
