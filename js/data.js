@@ -1,224 +1,274 @@
-var foodMap = { 
-  'restaurants de lima':[
+var foodMap = {
+  'distritos de lima': [
     {
-      'D`maximo sabor':{
-        'direccion':'Av. Petit Thouars 1109, Cercado de Lima, Lima',
-        'tipo de Comida':'Cocina peruana, parrillada, carnes',
-        'contactos': 471-7673,
-        'carta':[
-          {
-            'pachamanca tres sabores':{
-              descripcion:'Pachamanca a la olla tres sabores: Res, chancho y pollo macerados en finas hierbas de nuestra serrania. ',
-              precio: 20.00,
-              photo:'',
-            }
-          },
-          {
-            'sancochado':{
-              descripcion:'Pecho de res, verduras, yuca, choclo.' ,
-              precio:12.00 ,
-              photo:'',
-            }
-          },
-          {
-            'anticuchos':{
-              descripcion:'2 Palitos, papas frescas y choclo',
-              precio:12.90,
-              photo:'',
-            }
-          },
-          {        
-            'brochetas de pollo':{
-              descripcion:'2 Brochetas, ensalada fresca o cocida y papas fritas.',
-              precio:14.90,
-              photo:'',
-            }
-          },
-          {
-            '1/2 pollo a la brasa':{
-              descripcion:'Acompañado de papas fritas, ensalada fresca o cocida.',
-              precio:27.00,
-              photo:'',
-            }
+      'Cercado de Lima': [
+        {
+          'Puerto Norte': {
+            'descripción': 'Sabrosos potajes marinos con el mejor sabor norteño que te enamorará.',
+            'direccion': 'Av. España 224 , Cercado de Lima, Lima (Lima) ',
+            'contacto': 4717673,
+            'tipo de Comida': 'Cocina marina/pescados, pescado',
+            'precio': 'S/. 32 ',
+            'image': '',            
           }
-        ]
-      }
+        },
+        {
+          'D Maximo Sabor': {
+            'descripcion': 'Karoke y buena comida en un sólo lugar.',
+            'direccion': 'Av. Petit Thouars 1109, Cercado de Lima, Lima (Lima)',
+            'contacto': 4514373,
+            'tipo de Comida': 'Cocina peruana, parrillada, carnes',
+            'precio': 'S/. 40 ',
+            'image': '',   
+          }
+        },
+        {
+          'Chun Koc Sen': {
+            'descripcion': 'Donde podrás encontrar gran variedad de comida china cantonesa en el centro de la ciudad.',
+            'direccion': 'Jr. Paruro 890, Cercado de Lima, Lima (Lima) ',
+            'contacto': 4274765,
+            'tipo de Comida': 'Cocina chifa',
+            'precio': 'S/. 25 ',
+            'image': '',   
+          }
+        },
+        {
+          'Rustica (Centro Cívico)': {
+            'descripcion': 'Exquisitos sabores y mucha diversión.',
+            'direccion': 'C.C. Real Plaza Centro Cívico, Cercado de Lima, Lima (Lima)',
+            'contacto': 3305916,
+            'tipo de Comida': 'Cocina peruana, pizzería, parrillada ',
+            'precio': ' S/. 30 ',
+            'image': '',   
+          }
+        },
+        {
+          'Chilis': {
+            'descripcion': 'variados platillos, piqueos, sándwiches y bebidas, al ritmo de buena música y proyecciones entretenidas en las múltiples pantallas.',
+            'direccion': 'Av. Garcilaso de la Vega 1337, C.C. Real Plaza Centro Cívico, Cercado de Lima, Lima (Lima) ',
+            'contacto': 6100010,
+            'tipo de Comida': 'Cocina americana, hamburguesas',
+            'precio': 'S/. 40 ',
+            'image': '',   
+          }
+        }
+      ]
     },
     {
-      'Norkys':{
-        'direccion':'Av. Nicolás de Piérola 864 - 870, Cercado de Lima, Lima ',
-        'tipo de Comida':'Cocina parrillada',
-        'contactos': 423-5114,
-        'carta':[
-          {
-            'parrillada del chef':{
-              descripcion:'Churrasco 350gr., filete de pierna, Chuleta de cerdo 175gr., 1 chorizo y 1 palito de anticucho. Acompañado de papas fritas y ensalada.' ,
-              precio:40.00 ,
-              photo:'',
-            }
-          },
-          {
-            '1 pollo a la brasa':{
-              descripcion:'Pollo entero acompañado de papas fritas y ensalada.' ,
-              precio:50.00 ,
-              photo:'',
-            }
-          },
-          {
-            'brasa a lo pobre':{
-              descripcion:'1/4 de pollo a la brasa acompañado de arroz, huevo frito, plátano y papas fritas.',
-              precio:14.00,
-              photo:'',
-            }
-          },
-          {
-            'churrasco a lo pobre':{
-              descripcion:'Churrasco, plátano, huevo frito, papas fritas y ensalada.',
-              precio:18.90,
-              photo:'',
-            }
-          },
-          {
-            'anticuchos':{
-              descripcion:'Dos palos de anticucho acompañada de crocantes papas fritas más ensalada.',
-              precio:20.00,
-              photo:'',
-            }
+      'Breña': [
+        {
+          'Del Mar al Paladar': {
+            'descripcion': 'Ceviches, tiraditos, chicharrones, sudados, jaleas, chupes, parihuelas y una amplia variedad de platillos preparados al momento ',
+            'direccion': 'Av. Venezuela 1010, 2o Nivel, Breña, Lima (Lima)',
+            'contacto': 3027640,
+            'tipo de Comida': 'Cocina marina/pescados',
+            'precio': 'S/. 40 ',
+            'image': '',            
           }
-        ]
-      }      
+        },
+        {
+          'Norkys': {
+            'descripcion': 'Pollos a la brasa, piqueos, parrilla y mucho más.',
+            'direccion': 'Av. Venezuela 1026, Breña, Lima (Lima)',
+            'contacto': 4332966,
+            'tipo de Comida': 'Cocina peruana, parrillada',
+            'precio': 'S/. 20',
+            'image': '',   
+          }
+        },
+        {
+          'El Pichito': {
+            'descripcion': 'Una variada carta de comida amazónica elaborada con insumos frescos y originales de la selva.',
+            'direccion': 'Jr. General Vidal 803 , Breña, Lima (Lima)',
+            'contacto': 4007713,
+            'tipo de Comida': 'Cocina regional, peruana ',
+            'precio': 'S/. 40',
+            'image': '',   
+          }
+        },
+        {
+          'Sarcletti': {
+            'descripcion': 'Disfruta de un antojo en cualquier momento del día en un ambiente ideal para vivir las más gratas experiencias.',
+            'direccion': 'Av. Brasil 714, C.C. La Rambla, Breña, Lima (Lima)',
+            'contacto': 7141636,
+            'tipo de Comida': 'Cocina pizzería, cafetería, piqueos',
+            'precio': 'S/. 40',
+            'image': '',   
+          }
+        },
+        {
+          'Patrio': {
+            'descripcion': 'Crocantes sándwiches, aromáticos cafés y dulces postres te esperan.',
+            'direccion': 'Av. Bolivia 935, Breña, Lima (Lima)',
+            'contacto': 6470069,
+            'tipo de Comida': 'Cocina peruana, cafetería',
+            'precio': ' S/. 18',
+            'image': '',   
+          }
+        }
+      ]
     },
     {
-      'Telepizza':{
-        'direccion':'AV. AREQUIPA 1200 , Lima',
-        'tipo de comida':'pizzas',
-        'contactos':619-8000,
-        'carta':[
-          {
-            'pizza al gusto':{
-              descripcion:'Nosotros calentamos el horno y tú nos dices cómo seguir: elige la masa, tus ingredientes favoritos y la salsa que más te apetezca.' ,
-              precio:32.90 ,
-              photo:,
-            }
-          },
-          {
-            'pizza napolitana':{
-              descripcion:'Siéntete como en la bella Italia y prueba nuestra pizza napolitana clásica con tomate natural y cebolla, sobre nuestra masa recien estirada a mano y horneada. ¡Una combinación perfecta!',
-              precio:40.90,
-              photo:,
-            },
-          },
-          {
-            'pizza hawaiana':{
-              descripcion:'Si para ti la piña no puede faltar ¡ Esta es tu pizza! Horneada sobre nuestra masa recien estirada con jamón y queso',
-              precio:40.90,
-              photo:'',
-            }
-          },
-          {
-            'pizza pepperoni':{
-              descripcion:'Prueba nuestra auténtica y crujiente masa con delicioso queso mozarella y peperoni.',
-              precio:40.90,
-              photo:'',
-            }
-          },
-          {
-            'pizza americana':{
-              descripcion:'Combina tu salsa de tomate favorita con jamon, queso y extra de queso, ¿Ya lo estas saboreando?.',
-              precio:40.90,
-              photo:'',
-            }
+      'Jesús María': [
+        {
+          'Cebichería María': {
+            'descripcion': 'Todo el sabor del cebiche y más platillos marinos en un espacio para compartir con alegría.',
+            'direccion': 'Av. Cuba 1200, Jesús María, Lima (Lima)',
+            'contacto': 3322815,
+            'tipo de Comida': 'Cocina marina/pescados, ',
+            'precio': 'S/. 30 ',
+            'image': '',            
           }
-        ]
-      }
+        },
+        {
+          'Bocatto': {
+            'descripcion': 'Sabrosas carnes y parrillas en un acogedor espacio creado para disfrutar.',
+            'direccion': 'Jr. Huáscar 1709, Jesús María, Lima (Lima) ',
+            'contacto': 967742622,
+            'tipo de Comida': 'Cocina parrillada, carnes',
+            'precio': 'S/. 35',
+            'image': '',   
+          }
+        },
+        {
+          'Rustica (Húsares)': {
+            'descripcion': 'Variedad en todos su platos para todos los gusta con las más exquisita sazón.',
+            'direccion': 'Av. Húsares de Junín  Nro. 144 - Jesús María, Jesús María, Lima (Lima)',
+            'contacto': 4603850,
+            'tipo de Comida': 'cocina internacional, fusión, peruana, pizzería, exótica',
+            'precio': 'S/. 35',
+            'image': '',   
+          }
+        },
+        {
+          'Don Belisario (Salaverry)': {
+            'descripcion': 'Un céntrico y comercial punto de encuentro con la familia y amigos para disfrutar de un exquisito y tradicional Pollo a la brasa.',
+            'direccion': 'Av. General Felipe Salaverry 2370, Jesús María, Lima (Lima) ',
+            'contacto': 6223476,
+            'tipo de Comida': 'Cocina polleria',
+            'precio': 'S/. 50',
+            'image': '',   
+          }
+        },
+        {
+          'El Cisne': {
+            'descripcion': 'Cocina oriental protagonizada por platos chinos hechos con la tradición de una sazón característica que es irresistible.',
+            'direccion': 'Avenida General Garzón 1640, Jesús María, Lima (Lima)',
+            'contacto': 4624773,
+            'tipo de Comida': 'Cocina chifa',
+            'precio': 'S/. 25',
+            'image': '',   
+          }
+        }
+      ]
     },
     {
-      'La muralla':{
-        'direccion':'Av. Nicolas de Pierola 1018, Alt. Plaza San Martin - Cercado de Lima-Centro historico de Lima.',
-        'tipo de Comida':'comida peruana, criolla y pescados y mariscos',
-        'contactos': 719-1362,
-        'carta':[
-          {
-            'uñitas de cangrejo':{
-              descripcion:'Uñas de cangrejo empanizadas, acompañadas de salsa golf y salsa al ají amarillo.' ,
-              precio:38.00 ,
-              photo:'',
-            }
-          },
-          {
-            'pulpo al olivo':{
-              descripcion: 'Láminas de pulpo sazonadas con limón y crema de aceitunas de botija.',
-              precio:36.00 ,
-              photo:,
-            },
-          },
-          {
-            'pulpo a la parrilla':{
-              descripcion:'Sabrosísimo pulpo en ensalada de papas, con rocoto y huacatay.',
-              precio:37.00,
-              photo:'',
-            }
-          },
-          {
-            'ceviche clasico':{
-              descripcion:'¡Excelente opción para disfrutar de la mezcla de la leche de tigre clásica con la de pantera!.Lo puede pedir de nuestro tradicional ceviche de pescado o mixto, acompañado con jugoso ceviche de conchas negras.',
-              precio:60.00,
-              photo:'',
-            }
-          },
-          {
-            'Chicharrón':{
-              descripcion:'Crocantes, calientes y sabrosos. La combinación perfecta de pescado, calamar o mixto.',
-              precio:34.00,
-              photo:'',
-            }
+      'La Victoria': [
+        {
+          'El Pez On': {
+            'descripcion': 'Un ambiente alegre, ameno y divertido para comer y tomar a gusto junto a tu mejor compañía.',
+            'direccion': 'Av. Canadá 1405 - Santa Catalina, La Victoria, Lima (Lima) ',
+            'contacto': 5718673,
+            'tipo de Comida': 'Cocina marina/pescados',
+            'precio': 'S/. 40',
+            'image': '',            
           }
-        ]
-      }
+        },
+        {
+          'Anticucheria Pepes': {
+            'descripcion': 'ofrece la mejor atención en su restaurante con el mejor sabor peruano en las parrilladas y platos criollos.',
+            'direccion': 'Av. Las Americas 915, La Victoria, La Victoria, Lima (Lima) ',
+            'contacto': 3245971,
+            'tipo de Comida': 'Cocina peruana, parrillada, carnes',
+            'precio': 'S/. 35',
+            'image': '',   
+          }
+        },
+        {
+          'El Tarwi': {
+            'descripcion': 'Si quieres probar nuevos sabores y disfrutar de una variopinta cocina regional, no debes dejar de visitar el restaurante El Tarwi, ubicado en La Victoria.',
+            'direccion': 'Av. San Eugenio 961, La Victoria, Lima (Lima)',
+            'contacto': 4720389,
+            'tipo de Comida': 'Cocina regional',
+            'precio': 'S/. 45 ',
+            'image': '',   
+          }
+        },
+        {
+          'La Rocca': {
+            'descripcion': 'Disfruta de aromáticos cafés, finos postres y exquisitos platillos en un espacio de ensueño que te enamorará',
+            'direccion': 'Av. Nicolás Arriola 499, Urb. Santa Catalina , La Victoria, Lima (Lima)',
+            'contacto': 4719514,
+            'tipo de Comida': 'Cocina internacional, cafetería',
+            'precio': 'S/. 40',
+            'image': '',   
+          }
+        },
+        {
+          'Huancahuasi': {
+            'descripcion': 'Disfruta de los platillos más sabrosos de los andes peruanos con ingredientes autóctonos y sabor tradicional.',
+            'direccion': 'Javier Prado Este 1405, La Victoria, Lima (Lima) ',
+            'contacto': 2253654,
+            'tipo de Comida': 'Cocina casera, regional',
+            'precio': 'S/. 30',
+            'image': '',   
+          }
+        }
+      ]
     },
     {
-      'Bembos:centro cívico':{
-        'direccion':'Av. Garcilaso de la Vega 1337 Local Comercial P-02 C.C. Real Plaza Centro Cívico, Lima 1, Lima,',
-        'tipo de Comida':'hamburguesa',
-        'contactos':423-5198,
-        'carta':[
-          {
-            'Salchepapa':{
-              descripcion:'Queso cheedar, Hotdog, salsa BBQ, papas al hilo y salsa de pepinillos.' ,
-              precio:15.90 ,
-              photo:'',
-            }
-          },
-          {
-            'Bembos a la parrilla':{
-              descripcion:'Hamburguesa a la parrilla, chorizo a la parrilla, chimichurri, tomate, mayonesa y mostaza' ,
-              precio:17.90,
-              photo:'',
-            },
-          },
-          {
-            'Chicken Grill':{
-              descripcion:'Pechuga de pollo marinada a la parrilla, lechuga, tomate y mayonesa',
-              precio:12.90,
-              photo:'',
-            }
-          },
-          {
-            'La carretillera':{
-              descripcion:'Deliciosa hamburguesa hecha a la parrilla con pollo deshilachado, salsa tártara y papitas al hilo.',
-              precio:8.90,
-              photo:'',
-            }
-          },
-          {
-            'Bembos doble queso':{
-              descripcion:'Hamburguesa a la parrilla, doble queso Edam, tomate en rodajas, lechuga y mayonesa.',
-              precio:13.90,
-              photo:'',
-            }
+      'Pueblo Libre': [
+        {
+          'El Atlántico': {
+            'descripcion': 'Un espacio sabroso y cálido donde disfrutar de los potajes marinos es todo un placer.',
+            'direccion': 'Av. Simón Bolivar 311, Pueblo Libre, Lima (Lima) ',
+            'contacto': 4174771,
+            'tipo de Comida': 'Cocina marina/pescados, pescado',
+            'precio': 'S/. 40',
+            'image': '',            
           }
-        ]
-      }
-    }      
-  ],  
-}
+        },
+        {
+          'Chifa Express': {
+            'descripcion': 'El mejor ambiente oriental te espera para que vivas una experiencia inolvidable degustando los más agradables platos de la cocina chifa.',
+            'direccion': 'Av. Bolívar 305, Pueblo Libre, Lima (Lima)',
+            'contacto': 2136688,
+            'tipo de Comida': 'Cocina chifa',
+            'precio': 'S/. 30',
+            'image': '',   
+          }
+        },
+        {
+          'Don Belisario (Sucre)': {
+            'descripcion': 'Un local ideal para ser el punto de encuentro con la familia o amigos y disfrutar de un exquisito y tradicional Pollo a la brasa.',
+            'direccion': 'Av. Sucre cdra. 5 (con Ex. Av. Clement), Pueblo Libre, Lima (Lima)',
+            'contacto': 4618967,
+            'tipo de Comida': 'Cocina polleria',
+            'precio': 'S/. 30',
+            'image': '',   
+          }
+        },
+        {
+          'Chicharrones del Inca': {
+            'descripcion': 'Si buscas disfrutar de opciones sabrosas para acompañar una comida con tus seres queridos este este es el lugar que esperabas.',
+            'direccion': 'Gral. Borgoño 109, Pueblo Libre, Lima (Lima)',
+            'contacto': 6285311,
+            'tipo de Comida': 'Cocina peruana, cafetería',
+            'precio': 'S/. 40',
+            'image': '',   
+          }
+        },
+        {
+          'Chifa Fu Sen': {
+            'descripcion': 'Delicias chinas para consentir el paladar con ingredientes exportados y lo mjeor de lo nacional.',
+            'direccion': 'Avenida Sucre, 962 - Pueblo Libre - Lima, Pueblo Libre, Lima (Lima)',
+            'contacto': 2617888,
+            'tipo de Comida': 'Cocina asiática, chifa, vegetariana, exótica',
+            'precio': 'S/. 29',
+            'image': '',   
+          }
+        }
+      ]
+    }
+  ], 
+}; 
