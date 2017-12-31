@@ -20,8 +20,7 @@
     <section class="location">
       <div class="container">
         <div class="row"> 
-          <img class="hidden-md hidden-lg img-responsive col-xs-12" src="../assets/images/lima-small.jpg" alt="">
-          <img class="visible-md visible-lg img-responsive col-xs-12" src="../assets/images/lima-desktop.png" alt="">            
+          <img class="img-responsive col-xs-12" src="../assets/images/cercado-lima.png" alt="">            
         </div>
       </div>  
     </section>
@@ -38,14 +37,63 @@
         <br>
         <br>
         <div class="row">
+          <h2 class="name-distrito text-center"></h2>
           <div class="col-xs-12">
-            <img class="image img-responsive xspadding col-xs-4" src="../assets/images/roca.jpg" alt="hamburguesa">
-            <img class="image img-responsive xspadding col-xs-4" src="../assets/images/sabor.jpg" alt="anticucho">
-            <img class="image img-responsive xspadding col-xs-4" src="../assets/images/pichito.jpg" alt="ceviche">
-            <img class="image img-responsive xspadding col-xs-6" src="../assets/images/tarwi.jpg" alt="pollo">
-            <img class="image img-responsive xspadding col-xs-6" src="../assets/images/norte.jpg" alt="pizza">    
+            <figure class="imagen col-xs-4 xspadding">
+              <img id="img0" class="img-responsive xspadding col-xs-4" src="" >
+              <div id="div-img0" data-toggle="modal" data-target="#myModal"></div>
+            </figure>
+            <figure class="imagen col-xs-4 xspadding">
+              <img id="img1" class="img-responsive xspadding col-xs-4" src="" data-toggle="modal" data-target="#myModal" >
+              <div id="div-img1" data-toggle="modal" data-target="#myModal"></div>
+            </figure>
+            <figure class="imagen col-xs-4 xspadding">
+              <img id="img2" class="img-responsive xspadding col-xs-4" src="" data-toggle="modal" data-target="#myModal" >
+              <div id="div-img2" data-toggle="modal" data-target="#myModal"></div>
+            </figure>
+            <figure class="imagen col-xs-6 xspadding">
+              <img id="img3" class="img-responsive xspadding col-xs-6" src="" data-toggle="modal" data-target="#myModal" >
+              <div id="div-img3" data-toggle="modal" data-target="#myModal"></div>
+            </figure>
+            <figure class="imagen col-xs-6 xspadding">
+              <img id="img4" class="img-responsive xspadding col-xs-6" src="" data-toggle="modal" data-target="#myModal" >    
+              <div id="div-img4" data-toggle="modal" data-target="#myModal"></div>
+            </figure>           
           </div>
         </div>
+      </div>
+    </section>
+    <!-- estructura del modal -->
+    <section>
+      <div class="container">
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content text-center">
+              <!-- header del modal -->
+              <div class="modal-header ">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"></h4>
+              </div>
+              <!-- body del modal -->
+              <div class="modal-body ">
+                <div class="figure">
+                  <img id="image-modal" class="img-responsive" src="" alt="">
+                </div>
+                <ul>
+                  <li class="li-1"></li>
+                  <li class="li-2"></li>
+                  <li class="li-3"></li>
+                  <li class="li-4"></li>
+                  <li class="li-5"></li>
+                </ul>                 
+              </div>
+              <!-- footer del modal -->
+              <div class="container-button modal-footer text-center">
+                <button  type="button" class="button-modal btn btn-default" data-dismiss="modal">PEDIR AHORA</button>
+              </div>
+            </div>  
+          </div>
+        </div>  
       </div>
     </section>
     <!--estructura de la seccion 'footer'-->
@@ -136,6 +184,7 @@
     </footer>
 
     <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../js/data.js"></script>
     <script type="text/javascript" src="../js/search.js"></script>
   </body>
