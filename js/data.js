@@ -4,7 +4,7 @@ var foodMap = {
       'cercado de lima': [
         {
           'puerto norte': {
-            'mapa': '../assets/images/cercadoLima-map.jpg',
+            'mapa': '../assets/images/cercadoLima-map.png',
             'descripcion': 'Sabrosos potajes marinos con el mejor sabor norteño que te enamorará.',
             'direccion': 'Av. España 224 , Cercado de Lima, Lima (Lima) ',
             'contacto': 4717673,
@@ -15,7 +15,7 @@ var foodMap = {
         },
         {
           'd maximo sabor': {
-            'mapa': '../assets/images/cercadoLima-map.jpg',
+            'mapa': '../assets/images/cercadoLima-map.png',
             'descripcion': 'Karoke y buena comida en un sólo lugar.',
             'direccion': 'Av. Petit Thouars 1109, Cercado de Lima, Lima (Lima)',
             'contacto': 4514373,
@@ -26,7 +26,7 @@ var foodMap = {
         },
         {
           'chun koc sen': {
-            'mapa': '../assets/images/cercadoLima-map.jpg',
+            'mapa': '../assets/images/cercadoLima-map.png',
             'descripcion': 'Donde podrás encontrar gran variedad de comida china cantonesa en el centro de la ciudad.',
             'direccion': 'Jr. Paruro 890, Cercado de Lima, Lima (Lima) ',
             'contacto': 4274765,
@@ -37,7 +37,7 @@ var foodMap = {
         },
         {
           'rustica (centro cívico)': {
-            'mapa': '../assets/images/cercadoLima-map.jpg',
+            'mapa': '../assets/images/cercadoLima-map.png',
             'descripcion': 'Exquisitos sabores y mucha diversión.',
             'direccion': 'C.C. Real Plaza Centro Cívico, Cercado de Lima, Lima (Lima)',
             'contacto': 3305916,
@@ -48,7 +48,7 @@ var foodMap = {
         },
         {
           'chilis': {
-            'mapa': '../assets/images/cercadoLima-map.jpg',
+            'mapa': '../assets/images/cercadoLima-map.png',
             'descripcion': 'variados platillos, piqueos, sándwiches y bebidas, al ritmo de buena música y proyecciones entretenidas en las múltiples pantallas.',
             'direccion': 'Av. Garcilaso de la Vega 1337, C.C. Real Plaza Centro Cívico, Cercado de Lima, Lima (Lima) ',
             'contacto': 6100010,
