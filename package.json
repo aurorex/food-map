@@ -1,0 +1,23 @@
+{
+  "name": "food-map-repo",
+  "version": "1.0.0",
+  "description": "food map repositorio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurorex/food-map.git"
+  },
+  "author": "aurorex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aurorex/food-map/issues"
+  },
+  "homepage": "https://github.com/aurorex/food-map#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1"
+  }
+}
