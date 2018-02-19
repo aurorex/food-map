@@ -9,10 +9,10 @@
 ## breña,jesus maria,cercado de lima,pueblo libre y la victoria. 
 
 ## Dinamicamente se visualizaran resultados con el nombre e imagenes de platos que sirven en aquel restaurante.Al hacer click en la imagen de cada restaurante se mostrara un modal con la informacion general: descripcion, direccion ,tipo de comida, n° de contacto,precio y un mapa de referencia.
-![foodmap-index](assets/images/foodmap-index.png)
-![foodmap-search](assets/images/foodmap-search.png)
-![foodmap-mouseover](assets/images/foodmap-mouseover.png)
-![foodmap-modal](assets/images/foodmap-modal.png)
+![foodmap-index](public/assets/images/foodmap-index.png)
+![foodmap-search](public/assets/images/foodmap-search.png)
+![foodmap-mouseover](public/assets/images/foodmap-mouseover.png)
+![foodmap-modal](public/assets/images/foodmap-modal.png)
 
 
 
